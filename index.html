@@ -1,0 +1,99 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Linking CSS -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Banner) -->
+    <!-- <section class="hero">
+        <img src="images/banner.jpg" alt="Travel Banner"> 
+        <div class="hero-content">
+            <h1>Explore Your Dream Destinations</h1>
+            <p>Find the best places to travel and book your adventure now!</p>
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </section> -->
+    <section class="hero">
+        <img src="images/banner.jpg" alt="Travel Banner">
+        <div class="hero-content">
+            <h1>Find the best places to travel and book your adventure now!</h1>
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </section>
+    
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <h2>Top Destinations</h2>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="images/destination1.jpg" alt="Destination 1">
+                <h3>Paris</h3>
+                <p>Experience the romance of Paris, the City of Lights.</p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+            <div class="card">
+                <img src="images/destination2.jpg" alt="Destination 2">
+                <h3>Maldives</h3>
+                <p>Relax on the sandy beaches and crystal-clear waters of the Maldives.</p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+            <div class="card">
+                <img src="images/destination3.jpg" alt="Destination 3">
+                <h3>New York</h3>
+                <p>Explore the bustling streets of New York City, full of life and excitement.</p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <h2>Book Your Trip</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="paris">Paris</option>
+                    <option value="maldives">Maldives</option>
+                    <option value="new-york">New York</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>&copy; 2025 Travel Booking Inc.</p>
+        <p>Contact us at <a href="mailto:support@travelbooking.com">support@travelbooking.com</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>  <!-- Linking JavaScript -->
