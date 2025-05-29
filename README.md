@@ -6,19 +6,26 @@ A sleek, responsive, and beginner-friendly travel booking website built using HT
 
 ✈️ Features
 
-Responsive Navigation Bar
+Responsive Navigation Bar:
+Smooth and accessible navigation across sections: Home, Destinations, Booking, and Contact.
 
-Hero Banner
+Hero Banner:
+Eye-catching hero image with a prominent call-to-action button.
 
-Destinations Showcase
+Destinations Showcase:
+Beautiful destination cards featuring top travel spots such as Paris, Maldives, and New York.
 
-Booking Form
+Booking Form:
+Interactive form with client-side validation to collect user travel details.
 
-Form Validation
+Form Validation:
+Ensures key fields like Name and Email are completed before submission.
 
-Modern UI/UX
+Modern UI/UX:
+Clean, minimal design with subtle hover effects, shadows, and an intuitive layout.
 
-Footer Contact Info
+Footer Contact Info:
+Includes a clickable contact email and copyright.
 
 📁 Tech Stack
 
