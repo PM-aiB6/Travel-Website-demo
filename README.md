@@ -1,10 +1,9 @@
 # Travel-Website-demo
 
-
 🌍 Travel Booking Website
 A sleek, responsive, and beginner-friendly travel booking website built with HTML, CSS, and JavaScript. This project allows users to explore popular travel destinations and easily submit a booking request through a simple, interactive form.
 
-✈️ Features
+✈️ Features:
 Responsive Navigation Bar – Smooth access to Home, Destinations, Booking, and Contact sections.
 Hero Banner – Engaging hero image with a call-to-action button.
 Destinations Showcase – Beautifully designed cards displaying top travel spots like Paris, Maldives, and New York.
